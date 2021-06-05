@@ -1,0 +1,22 @@
+.contenedor{
+    margin: 50px auto;
+    width: 50%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 20px;
+}
+.p{
+    background-color: #075F9C;
+    padding: 20px;
+    font-size: 30px;
+}
+.pp{
+    background-color: #1378BE;
+}
+td{
+    background-color: #B3D8E8;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul,
+ol,
+dl {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+  border: solid 2px #23A3F7;
+  background-repeat: repeat-y;
+}
+
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+  background-color: #23A3F7;
+  background-repeat: no-repeat;
+  height: 130px;
+  font-size: 90px;
+  text-align: right;
+  color: white;
+  padding: 20px 120px 20px 10px;
+
+}
+
+#logo {
+  height: 158px;
+  width: 170px;
+  margin-top: 15px;
+  margin-left: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.top-nav {
+  font-size: 90%;
+  font-weight: bold;
+  color: #FFC;
+  background-color: #23A3F7;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.top-nav a:link,
+.top-nav a:visited {
+  color: #FFC;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.top-nav a:hover,
+.top-nav a:active,
+.top-nav a:focus {
+
+  background-color: #1E78AF;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+
+.sidebar1 {
+  float: left;
+  width: 180px;
+  height: auto;
+  padding-bottom: 10px;
+  margin: 0px 5px 200% 0px;
+}
+
+nav {
+  font-size: 90%;
+}
+
+
+nav ul {
+  list-style: none;
+
+  font-size: 100%;
+}
+
+nav ul li ul {
+  text-align: center;
+  list-style: none;
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav li a:link,
+nav li a:visited {
+
+  padding: 5px 5px 5px 15px;
+  display: block;
+  
+  width: 158px;
+
+  text-decoration: none;
+  background-color: #23A3F7;
+  color: #FFC;
+  border-color: #10689E;
+  border-width: 1px;
+  border-style: solid;
+}
+
+nav li a:hover,
+nav li a:active,
+nav li a:focus {
+  background-color: #1E78AF;
+  color: #FFF;
+}
+
+.boxPadre{
+  display: flex;
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.boxHijo{
+  flex: 1 1 auto;
+  font-size: 20px;
+}
+
+.boxcol{
+  flex-direction: column;
+  display: flex;
+  text-align: right;
+  margin-top: 80px;
+  padding: 10px;
+  margin-bottom: 50px;
+  
+}
+
+.boxph{
+  text-align: center;
+  display:flex;
+
+  
+}
+.boxPadre12{
+  display: flex;
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.boxHijo12{
+  flex: 1 1 auto;
+  font-size: 20px;
+  padding: 30px;
+}
+u{
+  color: #08a3a3;
+}
+        footer {
+            position: relative;
+  margin-top: -50px;
+  height: 40px;
+  padding:80px 100px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+        }
+      

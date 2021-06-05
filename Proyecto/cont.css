@@ -1,0 +1,50 @@
+
+div{
+    margin: 200px auto;
+    padding: 20px;
+    width: 30%;
+    background-color: #075F9C;
+}
+.inputs{
+    width: 100%;
+    margin: 6px auto;
+    border: #ccc;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+}
+#nom{
+    font-size: 25px;
+    padding: 10px;
+}
+#input{
+    padding: 0px 5px;
+    height: 50px;
+}
+#but{
+    margin: 7px 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #1378BE;
+    border: #1378BE;
+}
+#but:hover{
+    background-color: #B3D8E8;
+}
+#link{
+    margin: 7px 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #1378BE;
+    border: #1378BE;
+}
+#link:hover{
+    background-color: #B3D8E8;
+}
